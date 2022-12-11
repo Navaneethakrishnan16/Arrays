@@ -1,0 +1,21 @@
+class HelloWorld {
+
+    public static void main(String[] args) {
+
+     int first_number=0,second_number =1,Third_number;
+
+     System.out.print(first_number + " " +second_number+" ");
+
+     for(int i=2;i<7;i++){
+
+         Third_number = first_number + second_number;
+
+         System.out.print(Third_number + " ");
+
+         first_number = second_number;
+
+         second_number =Third_number;
+         
+     }
+    }
+}
