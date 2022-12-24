@@ -1,0 +1,19 @@
+public class SumofDigits {
+
+	public static void main(String[] args) {
+
+		int sum =0,number=121 ;
+
+        while(number>0) {
+
+      	  int rev = number%10;
+      	  sum= sum+rev;
+      	  number=number/10;
+      	            
+
+        }
+
+        System.out.println("Sum of the digits "+sum);
+	}
+
+}
